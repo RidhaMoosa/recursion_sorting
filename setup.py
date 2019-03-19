@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='mypackage',
+    name='recursion_sorting',
     version='0.1',
     packages=find_packages(exclude=['tests*']),
     license='EDSA',
@@ -9,6 +9,6 @@ setup(
     long_description=open('README.md').read(),
     install_requires=['none'],
     url='https://github.com/<RidhaMoosa>/<recursion_sorting>',
-    author='<Ridha Moosa>',
+    author='<RidhaMoosa>',
     author_email='<drridhamoosa@gmail.com>'
 )
