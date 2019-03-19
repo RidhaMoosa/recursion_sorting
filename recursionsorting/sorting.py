@@ -11,7 +11,6 @@ def bubble_sort(items):
     Example:
         >>>bubble_sort([5,1,8,1,9,7])
             Output: [1, 1, 5, 7, 8, 9]
-
     '''
 
     nlist = items.copy()
@@ -69,7 +68,7 @@ def merge_sort(items):
     return merge(i1, i2)
 
 def quick_sort(items, index=-1):
-'''Return array of items, sorted in ascending order
+    '''Return array of items, sorted in ascending order
 
     Args:
         items : list
