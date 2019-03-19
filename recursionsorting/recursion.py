@@ -16,11 +16,8 @@ def sum_array(array):
 
     '''
     #there must be more than one value in the array/list
-    if len(array) == 1:
-        print('Incorrect input: Array needs more than one number to sum')
-    else:
-        summed = sum(array)
-        return summed
+    return sum(array)
+
 
 
 def fibonacci(n):
@@ -37,18 +34,11 @@ def fibonacci(n):
         >>>fibonacci(10)
             Output: 34
     '''
-    if n<=0:
-        print("Incorrect input: Input needs to a positive integer greater than zero")
+    if n <= 1:
+        return n
 
-    #first number is 0
-    elif n==1:
-        return 0
-    #second number is 1
-    elif n==2:
-        return 1
-    #return the sum of the last two numbers before the position specified
     else:
-        return fibonacci(n-1) + fibonacci(n-2)
+        return fibonacci(n - 1) + fibonacci(n - 2)
 
 
 def factorial(n):
