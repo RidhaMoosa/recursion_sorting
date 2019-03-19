@@ -7,7 +7,6 @@ setup(
     license='EDSA',
     description='EDSA - Recursion and Sorting Functions',
     long_description=open('README.md').read(),
-    install_requires=['none'],
     url='https://github.com/<RidhaMoosa>/<recursion_sorting>',
     author='<RidhaMoosa>',
     author_email='<drridhamoosa@gmail.com>'
